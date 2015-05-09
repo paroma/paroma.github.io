@@ -1,18 +1,10 @@
-Vaishaal Shankar
-========
+---
+layout: default
+title: Paroma Varma
+---
 
-![image](http://s17.postimg.org/rxv2qg1v3/image.jpg)
+<img src="profile.jpg" alt="Drawing" style="width: 150px;"/>
 
-I'm a fourth year undergrad at UC Berkeley. I currently do research with Professor Anthony Joseph in secure machine Learning and Professor Avideh Zakhor in scalable image localization.
+I am currently a senior studying Electrical Engineering and Computer Science at UC Berkeley. I will be joining Stanford Univeristy this fall to pursue my PhD in Electrical Engineering, supported by the Stanford Graduate Fellowship and the NSF Graduate Research Fellowship.
 
-I am also head TA for [CS162](http://cs162.eecs.berkeley.edu/) the operating systems course.
-
-You can contact me at vaishaal at berkeley dot edu  
-I've worked on a few projects which you can find [here](http://github.com/vaishaal).  
-My cv is [here](/cv.pdf)
-
-
-Other Useful Stuff
-------------------
-[Git for advanced beginners](https://docs.google.com/presentation/d/1FOOA4Tn9evpPHas0z-o2AM6wrUI_bXXcnepYnQ9TrZ4/pub?start=false&loop=false&delayms=3000)
-
+As an undergraduate, I worked in Professor Laura Waller's [Computational Imaging Lab](http://www.laurawaller.com/) and Dr.Knight's [Cognitive Neuroscience](http://knightlab.berkeley.edu/) labs. 
