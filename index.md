@@ -5,7 +5,7 @@ title: Paroma Varma
 
 <div>
 <div style="text-align:left; display:inline-block" markdown="1">
-<img src="profile.jpg" alt="Drawing" style="width: 200px; vertical-align: -350%; margin-right: 10px" />
+<img src="profile.jpg" alt="Drawing" style="width: 200px; position: relative; vertical-align: -350%; margin-right: 10px" />
 </div>
 
 <div style="text-align:left; display:inline-block" markdown="1">
