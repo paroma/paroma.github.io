@@ -8,7 +8,7 @@ title: Paroma Varma
 <img src="profile.jpg" alt="Drawing" style="width: 200px; position: relative; margin-right: 10px" />
 </div>
 
-<div style="text-align:left; display:inline-block; vertical-align: text-top;“ markdown="1">
+<div style="text-align:left; display:inline-block; vertical-align: text-top;" markdown="1">
 
 I am a graduate student at Stanford University pursuing my Ph.D. in Electrical Engineering, supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org). 
 
