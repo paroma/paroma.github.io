@@ -29,8 +29,6 @@ worked on on digital holography and phase retrieval via partial coherence
 illumination in Professor Laura Waller's [Computational Imaging
 Lab](http://www.laurawaller.com/).
 
-I also had the opportunity to work in Professor Robert Knight's [Cognitive Neuroscience](http://knightlab.berkeley.edu/) lab at UC Berkeley, developing an algorithm for automated identification of neural oscillatory components. 
-
 More details in my [CV](cv.pdf) and [LinkedIn](https://www.linkedin.com/in/paromavarma) profile. 
 
 Contact: paroma [at] stanford [dot] edu
