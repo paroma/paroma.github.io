@@ -3,22 +3,15 @@ layout: default
 title: Paroma Varma
 ---
 
-<div>
-<div style="text-align:left; display:inline-block; vertical-align:text-top;" markdown="1">
-<img src="profile.jpg" alt="Drawing" style="width: 200px; position: relative; margin-right: 10px" />
-</div>
-
-<div style="text-align:left; display:inline-block; vertical-align:text-top;" markdown="1">
+<img src="profile.jpg" align="middle"/>
 
 I am a graduate student at Stanford University pursuing my Ph.D. in Electrical
-Engineering, advised by [Professor Christopher
+Engineering, advised by [Prof. Chris
 Ré](http://cs.stanford.edu/people/chrismre/). I am affiliated with the
 [Stanford Infolab](http://infolab.stanford.edu) and supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
 My research interests primarily involve exploring practical methods for machine
-learning. I currently work on a framework called Socratic learning, in which a
-noisy generative model for labeling training data uses information from the
-discriminative model to “correct” itself. Read more about it
+learning. I currently work on a framework called Socratic learning to correct misspecified generative models via feedback from the discriminative model. Read more about it
 [here](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)!
 
 I have also worked on problems related to computational imaging. I did a
@@ -33,8 +26,8 @@ More details in my [CV](cv.pdf) and [LinkedIn](https://www.linkedin.com/in/parom
 
 Contact: paroma [at] stanford [dot] edu
 
-</div>
-</div>
+
+
 
 
 
