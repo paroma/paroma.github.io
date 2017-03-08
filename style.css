@@ -2,9 +2,13 @@
 
 img{
     max-height:500px;
-    max-width:500px;
+    max-width:740px;
     height:auto;
     width:auto;
+    float:center;
+    margin:130px;
+    margin-bottom:12px;
+    margin-top:12px;
 }
 
 body{
@@ -18,36 +22,48 @@ p {
 	margin: auto;
 	font-weight: 400;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
 	margin: auto;
 	text-align: center;
     color: #111111;
     font-weight: 500;
 }
 h1, h2, h3, h4, h5, p {
-    margin-bottom: 24px;
+    margin-bottom: 18px;
     padding: 0;
 }
 h1 {
     font-size: 48px;
+    color: #820000;
+    
+    
 }
 h2 {
     font-size: 36px;
     /* The bottom margin is small. It's designed to be used with gray meta text
      * below a post title. */
     margin: 24px 0 6px;
+    
 }
 h3 {
     font-size: 24px;
+    margin-top: 38px;    
 }
 h4 {
     font-size: 21px;
+    margin-top: 38px;
+    
 }
 h5 {
-    font-size: 18px;
+    font-size: 16px;
+    color: #8a887d;
+    margin-bottom: 8px;    
+    margin-top: 12px;    
+    
 }
 a {
     color: #0099ff;
+    color: #8a887d;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
@@ -72,7 +88,7 @@ li ul, li ul {
 p, ul, ol {
     font-size: 16px;
     line-height: 24px;
-    max-width: 540px;
+    max-width: 740px;
 }
 pre {
     padding: 0px 24px;
