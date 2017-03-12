@@ -18,7 +18,7 @@ Before this, I worked on problems related to computational imaging. As an underg
 illumination and digital holography in Prof. Laura Waller's [Computational Imaging
 Lab](http://www.laurawaller.com/). I also rotated with Prof. Gordon Wetzstein’s [Computational Imaging
 Group](http://www.computationalimaging.org) and looked at solving 3D
-deconvolution problems more efficiently. 
+deconvolution problems more efficiently. My CV is [here](cv.pdf).
 
 #### Publications
 [Socratic Learning: Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
@@ -47,10 +47,6 @@ In *Imaging Systems and Applications, 2015*
 
 #### Teaching
 At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Designing Information Devices and Systems](https://inst.eecs.berkeley.edu/~ee16a/) and helped develop course material for the class as well. I was also a teaching assistant for EE20: Structure and Interpretation of Signals and Systems. 
-
-
-*My CV is [here](cv.pdf).*
-
 
 
 
