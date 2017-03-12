@@ -62,7 +62,6 @@ h5 {
     
 }
 a {
-    color: #0099ff;
     color: #8a887d;
     margin: 0;
     padding: 0;
@@ -70,10 +69,10 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: #ff6600;
+    color: #820000;
 }
 a:visited {
-    color: purple;
+    color: #820000;
 }
 ul, ol {
     padding: 0;
