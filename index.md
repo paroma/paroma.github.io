@@ -18,7 +18,8 @@ Before this, I worked on problems related to computational imaging. As an underg
 illumination and digital holography in Prof. Laura Waller's [Computational Imaging
 Lab](http://www.laurawaller.com/). I also rotated with Prof. Gordon Wetzstein’s [Computational Imaging
 Group](http://www.computationalimaging.org) and looked at solving 3D
-deconvolution problems more efficiently. My CV is [here](cv.pdf).
+deconvolution problems more efficiently.  
+My CV is [here](cv.pdf).
 
 #### Publications
 [Socratic Learning: Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
