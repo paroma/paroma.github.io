@@ -27,9 +27,13 @@ My CV is [here](cv.pdf).
 Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
 *In Submission*
 
+[Flipper: A Systematic Approach to Debugging Training Sets]()  
+Paroma Varma, Dan Iter, Christopher De Sa and Christopher Ré.  
+In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
+
 [Socratic Learning](http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
 Paroma Varma, Rose Yu, Dan Iter, Christopher De Sa, Christopher Ré  
-In *Future of Interactive Learning Machines Workshop, Neural Information Processing Systems, 2016*
+In *Future of Interactive Learning Machines Workshop (FILM), Neural Information Processing Systems, 2016*
 
 [Efficient 3D Deconvolution Microscopy with Proximal Algorithms](https://www.osapublishing.org/abstract.cfm?uri=ISA-2016-JT3A.44)  
 Paroma Varma, Gordon Wetzstein  
