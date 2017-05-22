@@ -23,11 +23,11 @@ deconvolution problems more efficiently.
 My CV is [here](cv.pdf).
 
 #### Publications
-[Socratic Learning: Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
+[Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
 Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
 *In Submission*
 
-[Flipper: A Systematic Approach to Debugging Training Sets]()  
+[Flipper: A Systematic Approach to Debugging Training Sets](http://dl.acm.org/citation.cfm?id=3077263)  
 Paroma Varma, Dan Iter, Christopher De Sa and Christopher Ré.  
 In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
 
