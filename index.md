@@ -27,7 +27,7 @@ My CV is [here](cv.pdf).
 Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
 *In Submission*
 
-[Flipper: A Systematic Approach to Debugging Training Sets](http://dl.acm.org/citation.cfm?id=3077263)  
+[Flipper: A Systematic Approach to Debugging Training Sets](flipper.pdf)  
 Paroma Varma, Dan Iter, Christopher De Sa and Christopher Ré.  
 In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
 
