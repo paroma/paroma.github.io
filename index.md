@@ -11,7 +11,7 @@ I am advised by [Prof. Chris
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 [Infolab](http://infolab.stanford.edu) and [DAWN](http://dawn.cs.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around making machine learning easily usable for domain experts who do not have access to the powerful systems and massive datasets required for training complex models. I have recently focused on the bottleneck of gathering high quality training data and making this process more efficient and interpretable for domain experts. My projects inlude automatically correcting generative models, debugging training sets, and learning model structure efficiently using ideas from static analysis. 
+My research interests revolve around making machine learning easily usable for domain experts who do not have access to the powerful systems and massive datasets required for training complex models. I have recently focused on the bottleneck of [gathering high quality training data](http://hazyresearch.github.io/snorkel/). My projects inlude [automatically correcting generative models](https://arxiv.org/abs/1610.08123), [debugging training sets](flipper.pdf), and learning model structure efficiently using priciples from static analysis (coming soon!). 
 
 Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
 illumination and digital holography in Prof. Laura Waller's [Computational Imaging
@@ -24,7 +24,6 @@ My CV is [here](cv.pdf).
 #### Publications
 [Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
 Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
-*In Submission*
 [A short blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)
 
 [Flipper: A Systematic Approach to Debugging Training Sets](flipper.pdf)  
