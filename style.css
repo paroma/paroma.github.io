@@ -62,17 +62,17 @@ h5 {
     
 }
 a {
-    color: #8a887d;
+    color: #820000;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
 }
 a:hover {
     text-decoration: none;
-    color: #820000;
+    color: #8a887d;
 }
 a:visited {
-    color: #820000;
+    color: #8a887d;
 }
 ul, ol {
     padding: 0;
