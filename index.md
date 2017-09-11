@@ -11,7 +11,7 @@ I am advised by [Prof. Chris
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 [Infolab](http://infolab.stanford.edu) and [DAWN](http://dawn.cs.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around making machine learning easily usable for domain experts who do not have access to the powerful systems and massive datasets required for training complex models. I have recently focused on the bottleneck of [gathering high quality training data](http://hazyresearch.github.io/snorkel/). My projects include [automatically correcting generative models](https://arxiv.org/abs/1610.08123), [debugging training sets](flipper.pdf), and learning model structure efficiently using priciples from static analysis (coming soon!). 
+My research interests revolve around making machine learning easily usable for domain experts who do not have access to the powerful systems and massive datasets required for training complex models. I have recently focused on the bottleneck of [gathering high quality training data](http://hazyresearch.github.io/snorkel/). My projects include [automatically correcting generative models](https://arxiv.org/abs/1610.08123), [debugging training sets](flipper.pdf), and [learning model structure](https://arxiv.org/abs/1709.02477) efficiently using priciples from static analysis. 
 
 Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
 illumination and digital holography in Prof. Laura Waller's [Computational Imaging
@@ -22,6 +22,10 @@ deconvolution problems more efficiently.
 My CV is [here](cv.pdf).
 
 #### Publications
+[Coral: Inferring Generative Model Structure with Static Analysis](https://arxiv.org/abs/1709.02477)  
+Paroma Varma, Bryan He, Payal Bajaj, Imon Banerjee, Nishith Khandwala, Daniel L. Rubin and Christopher Ré.  
+In *Neural Information Processing Systems (NIPS), 2017*
+
 [Correcting Misspecified Generative Models using Discriminative Models](https://arxiv.org/abs/1610.08123)  
 Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
 [A short blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)
