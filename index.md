@@ -13,12 +13,6 @@ Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 
 My research interests revolve around making machine learning easily usable for domain experts who do not have access to the powerful systems and massive datasets required for training complex models. I have recently focused on the bottleneck of [gathering high quality training data](http://hazyresearch.github.io/snorkel/). My projects include [automatically correcting generative models](https://arxiv.org/abs/1610.08123), [debugging training sets](flipper.pdf), and [learning model structure](https://arxiv.org/abs/1709.02477) efficiently using priciples from static analysis. 
 
-Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
-illumination and digital holography in Prof. Laura Waller's [Computational Imaging
-Lab](http://www.laurawaller.com/). I also rotated with Prof. Gordon Wetzstein’s [Computational Imaging
-Group](http://www.computationalimaging.org) and looked at solving 3D
-deconvolution problems more efficiently.
-
 My CV is [here](cv.pdf).
 
 #### Publications
@@ -56,6 +50,13 @@ In *Imaging Systems and Applications, 2015*
 
 #### Teaching
 At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Designing Information Devices and Systems](https://inst.eecs.berkeley.edu/~ee16a/) and helped develop course material for the class as well. I was also a teaching assistant for EE20: Structure and Interpretation of Signals and Systems. 
+
+#### In the Past
+Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
+illumination and digital holography in Prof. Laura Waller's [Computational Imaging
+Lab](http://www.laurawaller.com/). I also rotated with Prof. Gordon Wetzstein’s [Computational Imaging
+Group](http://www.computationalimaging.org) and looked at solving 3D
+deconvolution problems more efficiently.
 
 
 
