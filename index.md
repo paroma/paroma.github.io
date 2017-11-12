@@ -42,6 +42,7 @@ At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Des
 
 
 #### Publications
+##### 2017
 [Inferring Generative Model Structure with Static Analysis](https://arxiv.org/abs/1709.02477)  
 Paroma Varma, Bryan He, Payal Bajaj, Imon Banerjee, Nishith Khandwala, Daniel L. Rubin and Christopher Ré.  
 In *Neural Information Processing Systems (NIPS), 2017*
@@ -61,6 +62,7 @@ Paroma Varma, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christoph
 Paroma Varma, Dan Iter, Christopher De Sa and Christopher Ré.  
 In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
 
+##### 2016
 [Socratic Learning](http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
 Paroma Varma, Rose Yu, Dan Iter, Christopher De Sa, Christopher Ré  
 In *Future of Interactive Learning Machines Workshop (FILM), Neural Information Processing Systems (NIPS), 2016*
@@ -73,6 +75,7 @@ In *Computational Optical Sensing and Imaging, Imaging and Applied Optics, 2016*
 Jingshan Zhong, Lei Tian, Paroma Varma, Laura Waller  
 In *IEEE Transactions on Computational Imaging, 2016*
 
+##### 2015
 [Source Shape Estimation in Partially Coherent Phase Imaging with Defocused Intensity](https://www.osapublishing.org/abstract.cfm?uri=COSI-2015-CTh1E.5)  
 Jingshan Zhong, Paroma Varma, Lei Tian, Laura Waller  
 In *Computational Optical Sensing and Imaging, Imaging and Applied Optics, 2015*
