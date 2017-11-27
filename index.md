@@ -19,10 +19,10 @@ My CV is [here](cv.pdf).
 ##### Coral: Enriching Statistical Models with Static Analysis
 ###### NIPS 2017, NIPS ML4H 2017, MED-NIPS 2017
 We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
-[[pdf](https://arxiv.org/abs/1709.02477)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video soon!]()]
+[[pdf](https://arxiv.org/abs/1709.02477)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
 
 ##### Socratic Learning: Finding Latent Subsets in Training Data
-###### HILDA 2017, NIPS FILM 2016,
+###### HILDA 2017, NIPS FILM 2016
 We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
 [[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html])] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
 
