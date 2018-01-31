@@ -28,7 +28,7 @@ We explore how we can find latent subsets in training data that affect the behav
 
 ##### Babble Labble: Learning from Natural Language Explanations
 ###### NIPS 2017 DEMO
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf soon!]()] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo soon!]]()
+[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf soon!]()] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
 
 #### In the Past
 Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
