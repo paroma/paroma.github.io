@@ -24,7 +24,7 @@ We introduce a weak supervision framework to efficiently label image and video t
 ##### Socratic Learning: Finding Latent Subsets in Training Data
 ###### HILDA 2017, NIPS FILM 2016
 We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
-[[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html])] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
+[[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
 
 ##### Babble Labble: Learning from Natural Language Explanations
 ###### ACL 2018, NIPS 2017 DEMO 
