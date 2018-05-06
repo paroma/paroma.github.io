@@ -11,24 +11,34 @@ I am a third year Ph.D. student advised by [Prof. Chris
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu) and [Infolab](http://infolab.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve making machine learning easily usable for domain experts who do not have access to the massive datasets required for training complex models. I am also interested in exploring the intersection between machine learning and programming languages to improve how models are supervised and reduce user effort in training these models. 
+My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train complex models (like [here](#reef), [here](#coral), [here](#babble), and [here](#socratic)). I am also interested in exploring how _developer exhaust_, or byproducts of the data analytics pipeline, can help simplify complex [statistical](#coral) and [search-based](#deem) problems.
 
 My CV is [here](cv.pdf).
 
 #### Projects
-##### Coral: Enriching Statistical Models with Static Analysis
+##### <a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data
+###### _In Submission_
+We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
+We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] 
+
+##### <a name="deem"></a>Efficient Model Search using Log Data
+###### DEEM @ SIGMOD 2018
+We present preliminary methods that use the logs generated while training complex deep learning models to predict the performance of models with different architectures. We find that without training any new models, we can predict how well a model architecture will perform according to different metrics and within training time constraints. [[pdf](logsearch.pdf)]
+
+##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
+###### ACL 2018, NIPS 2017 DEMO 
+[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf soon!]()] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+
+
+##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
 ###### NIPS 2017, NIPS ML4H 2017, MED-NIPS 2017
 We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
 [[pdf](https://arxiv.org/abs/1709.02477)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
 
-##### Socratic Learning: Finding Latent Subsets in Training Data
-###### HILDA 2017, NIPS FILM 2016
+##### <a name="socratic"></a>Socratic Learning: Finding Latent Subsets in Training Data
+###### HILDA @ SIGMOD 2017, NIPS FILM 2016
 We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
 [[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
-
-##### Babble Labble: Learning from Natural Language Explanations
-###### ACL 2018, NIPS 2017 DEMO 
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf soon!]()] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
 
 #### In the Past
 Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
@@ -47,7 +57,7 @@ At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Des
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
 In *Association for Computational Linguistics (ACL), 2018*
 
-[Exploring the Utility of Developer Exhaust]()  
+[Exploring the Utility of Developer Exhaust](logsearch.pdf)  
 Jian Zhang, Max Lam, Stephanie Wang, **Paroma Varma**, Luigi Nardi, Kunle Olukotun and Christopher Ré.  
 In *Workshop on Data Management for End-to-End Machine Learning (DEEM) at SIGMOD, 2018*
 
