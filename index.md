@@ -79,7 +79,7 @@ In *Medical Imaging meets NIPS (MED-NIPS), 2017*
 
 [Flipper: A Systematic Approach to Debugging Training Sets](flipper.pdf)  
 **Paroma Varma**, Dan Iter, Christopher De Sa and Christopher Ré.  
-In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
+In *Workshop on Human-In-the-Loop Data Analytics (HILDA) at SIGMOD, 2017*
 
 ##### 2016
 [Socratic Learning](http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
