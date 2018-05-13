@@ -5,6 +5,9 @@ title: Paroma Varma
 ### Ph. D. Student - Electrical Engineering - Stanford University  
 
 ### paroma [at] stanford [dot] edu
+
+### [Projects](#project) - [Past](#past) - [Publications](#pubs)
+
 <img src="profile.jpg" align="middle"/>
 
 I am a third year Ph.D. student advised by [Prof. Chris
@@ -15,7 +18,8 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 My CV is [here](cv.pdf).
 
-#### Projects
+#### <a name="project"></a>Projects
+
 ##### <a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data
 ###### _In Submission_
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
@@ -40,7 +44,7 @@ We introduce a weak supervision framework to efficiently label image and video t
 We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
 [[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
 
-#### In the Past
+#### <a name="past"></a>In the Past
 Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
 illumination and digital holography in Prof. Laura Waller's [Computational Imaging
 Lab](http://www.laurawaller.com/). I also rotated with Prof. Gordon Wetzstein’s [Computational Imaging
@@ -51,7 +55,7 @@ deconvolution problems more efficiently.
 At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Designing Information Devices and Systems](https://inst.eecs.berkeley.edu/~ee16a/) and helped develop course material for the class as well. I was also a teaching assistant for EE20: Structure and Interpretation of Signals and Systems. 
 
 
-#### Publications
+#### <a name="pubs"></a>Publications
 ##### 2018
 [Training Classifiers with Natural Language Explanations]()  
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
