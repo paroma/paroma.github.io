@@ -31,7 +31,7 @@ We present preliminary methods that use the logs generated while training comple
 
 ##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
 ###### ACL 2018, NIPS 2017 DEMO 
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf soon!]()] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [pdf soon!] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
 
 
 ##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
@@ -83,7 +83,7 @@ In *Medical Imaging meets NIPS (MED-NIPS), 2017*
 
 [Flipper: A Systematic Approach to Debugging Training Sets](flipper.pdf)  
 **Paroma Varma**, Dan Iter, Christopher De Sa and Christopher Ré.  
-In *Workshop on Human-In-the-Loop Data Analytics (HILDA), 2017*
+In *Workshop on Human-In-the-Loop Data Analytics (HILDA) at SIGMOD, 2017*
 
 ##### 2016
 [Socratic Learning](http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
