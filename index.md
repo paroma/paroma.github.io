@@ -25,14 +25,13 @@ My CV is [here](cv.pdf).
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
 We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] 
 
+##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
+###### ACL 2018, NIPS 2017 DEMO 
+[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+
 ##### <a name="deem"></a>Efficient Model Search using Log Data
 ###### DEEM @ SIGMOD 2018
 We present preliminary methods that use the logs generated while training complex deep learning models to predict the performance of models with different architectures. We find that without training any new models, we can predict how well a model architecture will perform according to different metrics and within training time constraints. [[pdf](logsearch.pdf)]
-
-##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
-###### ACL 2018, NIPS 2017 DEMO 
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [pdf soon!] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
-
 
 ##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
 ###### NIPS 2017, NIPS ML4H 2017, MED-NIPS 2017
@@ -57,7 +56,7 @@ At UC Berkeley, I was a teaching assistant for the first offering of [EE16A: Des
 
 #### <a name="pubs"></a>Publications
 ##### 2018
-[Training Classifiers with Natural Language Explanations]()  
+[Training Classifiers with Natural Language Explanations](https://arxiv.org/abs/1805.03818)  
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
 In *Association for Computational Linguistics (ACL), 2018*
 
