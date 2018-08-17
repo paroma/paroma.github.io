@@ -1,0 +1,143 @@
+<link rel="stylesheet" href="style.css">
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123535714-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-123535714-1');
+	</script>
+        <meta charset="utf-8">
+        <title>Paroma Varma</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+    <div class="sidebar">
+        <p> </p>
+        <a class="active" href="#home">About</a>
+        <p> </p>
+        <a href="#projects">Projects</a>
+        <p> </p>
+        <a href="#pubs">Publications</a>
+        <p> </p>
+        <a href="#past">Past</a>
+        <p> </p>
+    </div>
+
+    <body><h2 id="-paroma-varma"><a name="home"></a> Paroma Varma</h2>
+
+<h3 id="ph-d-student---electrical-engineering---stanford-university">Ph. D. Student - Electrical Engineering - Stanford University</h3>
+
+<h3 id="paroma-at-stanford-dot-edu---paroma_varma">paroma [at] stanford [dot] edu - @paroma_varma</h3>
+
+<p><img src="profile.jpg" align="middle" /></p>
+
+<p>I am a fourth year Ph.D. student advised by <a href="http://cs.stanford.edu/people/chrismre/">Prof. Chris
+Ré</a> and affiliated with
+the <a href="http://dawn.cs.stanford.edu">DAWN</a>, <a href="http://ai.stanford.edu">SAIL</a>, and <a href="http://statsml.stanford.edu">StatML</a> groups. I am supported by the <a href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship</a> and the <a href="https://www.nsfgrfp.org">National Science Foundation Graduate Research Fellowship</a>.</p>
+
+<p>My research interests revolve around <em>weak supervision</em>, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train complex models (like <a href="#reef">here</a>, <a href="#coral">here</a>, <a href="#babble">here</a>, and <a href="#socratic">here</a>). This includes using <em>developer exhaust</em>, or byproducts of the data analytics pipeline, to simplify complex <a href="#coral">statistical</a> and <a href="#deem">search-based</a> problems. I’m currently exploring systematic ways of debugging machine learning models, especially <a href="https://dawn.cs.stanford.edu/2018/06/21/debugging/">training data and labels</a>.</p>
+
+<p>My CV is <a href="cv.pdf">here</a>.</p>
+
+<h4 id="projects"><a name="project"></a>Projects</h4>
+
+<h5 id="reef-automating-weak-supervision-to-label-training-data"><a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data</h5>
+<h6 id="in-submission"><em>In Submission</em></h6>
+<p>We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
+We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [<a href="tech_report_reef.pdf">pdf</a>]</p>
+
+<h5 id="babble-labble-learning-from-natural-language-explanations"><a name="babble"></a>Babble Labble: Learning from Natural Language Explanations</h5>
+<h6 id="acl-2018-nips-2017-demo">ACL 2018, NIPS 2017 DEMO</h6>
+<p><a href="https://www.bradenhancock.com/">Braden Hancock</a> and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [<a href="https://arxiv.org/abs/1805.03818">pdf</a>] [<a href="https://hazyresearch.github.io/snorkel/blog/babble_labble.html">blogpost</a>] [<a href="https://www.youtube.com/watch?v=YBeAX-deMDg">demo video</a>]</p>
+
+<h5 id="efficient-model-search-using-log-data"><a name="deem"></a>Efficient Model Search using Log Data</h5>
+<h6 id="deem--sigmod-2018">DEEM @ SIGMOD 2018</h6>
+<p>We present preliminary methods that use the logs generated while training complex deep learning models to predict the performance of models with different architectures. We find that without training any new models, we can predict how well a model architecture will perform according to different metrics and within training time constraints. [<a href="logsearch.pdf">pdf</a>]</p>
+
+<h5 id="-coral-enriching-statistical-models-with-static-analysis"><a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis</h5>
+<h6 id="nips-2017-nips-ml4h-2017-med-nips-2017">NIPS 2017, NIPS ML4H 2017, MED-NIPS 2017</h6>
+<p>We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
+[<a href="https://arxiv.org/abs/1709.02477">pdf</a>] [<a href="http://dawn.cs.stanford.edu/2017/09/14/coral/">blogpost</a>] [<a href="https://youtu.be/Do1On5AzHE4">video</a>]</p>
+
+<h5 id="socratic-learning-finding-latent-subsets-in-training-data"><a name="socratic"></a>Socratic Learning: Finding Latent Subsets in Training Data</h5>
+<h6 id="hilda--sigmod-2017-nips-film-2016">HILDA @ SIGMOD 2017, NIPS FILM 2016</h6>
+<p>We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
+[<a href="https://arxiv.org/abs/1610.08123">pdf</a>] [<a href="flipper.pdf">workshop</a>] [<a href="http://hazyresearch.github.io/snorkel/blog/socratic_learning.html">blogpost</a>] [<a href="https://www.youtube.com/watch?v=0gRNochbK9c">video</a>]</p>
+
+<h4 id="publications"><a name="pubs"></a>Publications</h4>
+<h5 id="2018">2018</h5>
+<p><a href="https://arxiv.org/abs/1805.03818">Training Classifiers with Natural Language Explanations</a><br />
+Braden Hancock, <strong>Paroma Varma</strong>, Stephanie Wang, Percy Liang and Christopher Ré.<br />
+In <em>Association for Computational Linguistics (ACL), 2018</em></p>
+
+<p><a href="logsearch.pdf">Exploring the Utility of Developer Exhaust</a><br />
+Jian Zhang, Max Lam, Stephanie Wang, <strong>Paroma Varma</strong>, Luigi Nardi, Kunle Olukotun and Christopher Ré.<br />
+In <em>Workshop on Data Management for End-to-End Machine Learning (DEEM) at SIGMOD, 2018</em></p>
+
+<h5 id="2017">2017</h5>
+<p><a href="https://arxiv.org/abs/1709.02477">Inferring Generative Model Structure with Static Analysis</a><br />
+<strong>Paroma Varma</strong>, Bryan He, Payal Bajaj, Imon Banerjee, Nishith Khandwala, Daniel L. Rubin and Christopher Ré.<br />
+In <em>Neural Information Processing Systems (NIPS), 2017</em></p>
+
+<p><a href="">Automated Training Set Generation for Aortic Valve Classification</a><br />
+Vincent Chen, <strong>Paroma Varma</strong>, Madalina Fiterau, James Priest  and Christopher Ré.<br />
+In <em>Machine Learning for Health (ML4H), Neural Information Processing Systems (NIPS), 2017</em></p>
+
+<p><a href="">Generating Training Labels for Cardiac Phase-Contrast MRI Images</a><br />
+Vincent Chen, <strong>Paroma Varma</strong>, Madalina Fiterau, James Priest  and Christopher Ré.<br />
+In <em>Medical Imaging meets NIPS (MED-NIPS), 2017</em></p>
+
+<p><a href="https://arxiv.org/abs/1610.08123">Augmenting Generative Models to Incorporate Latent Subsets in Training Data</a><br />
+<strong>Paroma Varma</strong>, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré</p>
+
+<p><a href="flipper.pdf">Flipper: A Systematic Approach to Debugging Training Sets</a><br />
+<strong>Paroma Varma</strong>, Dan Iter, Christopher De Sa and Christopher Ré.<br />
+In <em>Workshop on Human-In-the-Loop Data Analytics (HILDA) at SIGMOD, 2017</em></p>
+
+<h5 id="2016">2016</h5>
+<p><a href="http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf">Socratic Learning</a><br />
+<strong>Paroma Varma</strong>, Rose Yu, Dan Iter, Christopher De Sa, Christopher Ré<br />
+In <em>Future of Interactive Learning Machines Workshop (FILM), Neural Information Processing Systems (NIPS), 2016</em></p>
+
+<p><a href="https://www.osapublishing.org/abstract.cfm?uri=ISA-2016-JT3A.44">Efficient 3D Deconvolution Microscopy with Proximal Algorithms</a><br />
+<strong>Paroma Varma</strong>, Gordon Wetzstein<br />
+In <em>Computational Optical Sensing and Imaging, Imaging and Applied Optics, 2016</em></p>
+
+<p><a href="http://ieeexplore.ieee.org/abstract/document/7476825/">Nonlinear Optimization Algorithm for Partially Coherent Phase Retrieval and Source Recovery</a><br />
+Jingshan Zhong, Lei Tian, <strong>Paroma Varma</strong>, Laura Waller<br />
+In <em>IEEE Transactions on Computational Imaging, 2016</em></p>
+
+<h5 id="2015">2015</h5>
+<p><a href="https://www.osapublishing.org/abstract.cfm?uri=COSI-2015-CTh1E.5">Source Shape Estimation in Partially Coherent Phase Imaging with Defocused Intensity</a><br />
+Jingshan Zhong, <strong>Paroma Varma</strong>, Lei Tian, Laura Waller<br />
+In <em>Computational Optical Sensing and Imaging, Imaging and Applied Optics, 2015</em></p>
+
+<p><a href="https://www.osapublishing.org/abstract.cfm?uri=isa-2015-ITh1A.2">Design of a Domed LED Illuminator for High-Angle Computational Illumination</a><br />
+Zachary Phillips, Gautam Gunjala, <strong>Paroma Varma</strong>, Jingshan Zhong, Laura Waller<br />
+In <em>Imaging Systems and Applications, 2015</em></p>
+
+<h4 id="in-the-past"><a name="past"></a>In the Past</h4>
+<p>Previously, I worked on problems related to computational imaging. As an undergraduate at UC Berkeley, I studied phase retrieval via partial coherence
+illumination and digital holography in Prof. Laura Waller’s <a href="http://www.laurawaller.com/">Computational Imaging
+Lab</a>. I also rotated with Prof. Gordon Wetzstein’s <a href="http://www.computationalimaging.org">Computational Imaging
+Group</a> and looked at solving 3D
+deconvolution problems more efficiently.</p>
+
+<h4 id="teaching">Teaching</h4>
+<p>At UC Berkeley, I was a teaching assistant for the first offering of <a href="https://inst.eecs.berkeley.edu/~ee16a/">EE16A: Designing Information Devices and Systems</a> and helped develop course material for the class as well. I was also a teaching assistant for EE20: Structure and Interpretation of Signals and Systems.</p>
+
+</body>
+
+</body>
+<p>This page was generated using <a href="http://jekyllrb.com/">Jekyll</a> and uses CSS from <a href="http://kevinburke.bitbucket.org/markdowncss/">Kevin Burke</a>. Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+</html>
+
