@@ -2,11 +2,12 @@
 layout: default
 title: Paroma Varma
 ---
+
+## <a name="home"></a> Paroma Varma
+
 ### Ph. D. Student - Electrical Engineering - Stanford University  
 
 ### paroma [at] stanford [dot] edu - @paroma_varma
-
-### [Projects](#project) - [Publications](#pubs) - [Past](#past)
 
 <img src="profile.jpg" align="middle"/>
 
