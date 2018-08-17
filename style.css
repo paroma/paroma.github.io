@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
 
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    width: 150px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    padding: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #8a887d; 
+    margin-bottom: 18px;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+
 img{
     max-height:500px;
     max-width:740px;
@@ -21,7 +61,7 @@ body{
 
 h5 {
     margin: auto;
-    max-width: 740px;
+    max-width: 1080px;
     font-weight: 500;
     font-size: 18px;
     color: #8a887d;
@@ -35,11 +75,10 @@ h6 {
     font-size: 16px;
     color: #820000; 
     line-height: 2px;    
-    max-width: 740px;
+    max-width: 1080px;
 }
 
 h3 {
-    margin: auto;
     text-align: center;
     font-weight: 500;
     font-size: 18px;
@@ -48,7 +87,8 @@ h3 {
 
 p {
 	margin: auto;
-	font-weight: 400;
+    font-weight: 400;
+    margin-left: 200px;
 }
 h1, h2, h4 {
 	margin: auto;
@@ -57,9 +97,11 @@ h1, h2, h4 {
     font-weight: 500;
 }
 
-h1, h2, h3, h4, h6, p {
+h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 18px;
     padding: 0;
+    margin-left: 200px;
+    max-width: 740px;
 }
 h1 {
     font-size: 48px;
@@ -71,7 +113,7 @@ h2 {
     font-size: 36px;
     /* The bottom margin is small. It's designed to be used with gray meta text
      * below a post title. */
-    margin: 24px 0 6px;
+     margin-left: 200px;
     
 }
 h4 {
