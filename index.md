@@ -19,6 +19,13 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 My CV is [here](cv.pdf).
 
+#### <a name="news"></a>Latest News
+
+| 08/06/18 | Excited to co-organize the [Relational Representation Learning Workshop](https://nips.cc/Conferences/2018/Schedule?showEvent=10927) at NIPS 2018!
+| 07/17/18 | [Braden Hancock](https://www.bradenhancock.com/) presents [Babble Labble](#babble) at ACL 2018!
+| 06/21/18 |  Wrote a blogpost on [debugging training data](https://dawn.cs.stanford.edu/2018/06/21/debugging/), feedback welcome!
+
+
 #### <a name="project"></a>Projects
 
 ##### <a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data
