@@ -21,21 +21,21 @@ My CV is [here](cv.pdf).
 
 #### <a name="news"></a>Latest News
 
+| 10/15/18 | [Reef: Automating Weak Supervision to Label Training Data](tech_report_reef.pdf) accepted to VLDB 2019!
+| 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
 | 08/06/18 | Excited to co-organize the [Relational Representation Learning Workshop](https://r2learning.github.io) at NIPS 2018!
 | 07/17/18 | [Braden Hancock](https://www.bradenhancock.com/) presents [Babble Labble](#babble) at ACL 2018!
-| 06/21/18 |  Wrote a blogpost on [debugging training data](https://dawn.cs.stanford.edu/2018/06/21/debugging/), feedback welcome!
-
 
 #### <a name="project"></a>Projects
 
 ##### <a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data
-###### _In Submission_
+###### To appear at VLDB 2019
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
-We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] 
+We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
 
 ##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
 ###### ACL 2018, NIPS 2017 DEMO 
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[code](https://github.com/HazyResearch/babble)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
 
 ##### <a name="deem"></a>Efficient Model Search using Log Data
 ###### DEEM @ SIGMOD 2018
@@ -54,6 +54,10 @@ We explore how we can find latent subsets in training data that affect the behav
 
 #### <a name="pubs"></a>Publications
 ##### 2018
+[Reef: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_reef.pdf)  
+**Paroma Varma** and Christopher Ré.  
+To appear at *International Conference on Very Large Databases (VLDB), 2019*
+
 [Training Classifiers with Natural Language Explanations](https://arxiv.org/abs/1805.03818)  
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
 In *Association for Computational Linguistics (ACL), 2018*
