@@ -15,21 +15,21 @@ I am a fourth year Ph.D. student advised by [Prof. Chris
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train complex models (like [here](#reef), [here](#coral), [here](#babble), and [here](#socratic)). This includes using _developer exhaust_, or byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#deem) problems. I'm currently exploring systematic ways of debugging machine learning models, especially [training data and labels](https://dawn.cs.stanford.edu/2018/06/21/debugging/).
+My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train complex models (like [here](#snuba), [here](#coral), [here](#babble), and [here](#socratic)). This includes using _developer exhaust_, or byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#deem) problems. I'm currently exploring systematic ways of debugging machine learning models, especially [training data and labels](https://dawn.cs.stanford.edu/2018/06/21/debugging/).
 
 My CV is [here](cv.pdf).
 
 #### <a name="news"></a>Latest News
 
-| 10/15/18 | [Reef: Automating Weak Supervision to Label Training Data](tech_report_reef.pdf) accepted to VLDB 2019!
+| 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](tech_report_snuba.pdf) accepted to VLDB 2019!
 | 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
 | 08/06/18 | Excited to co-organize the [Relational Representation Learning Workshop](https://r2learning.github.io) at NIPS 2018!
 | 07/17/18 | [Braden Hancock](https://www.bradenhancock.com/) presents [Babble Labble](#babble) at ACL 2018!
 
 #### <a name="project"></a>Projects
 
-##### <a name="reef"></a>Reef: Automating Weak Supervision to Label Training Data
-###### To appear at VLDB 2019
+##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
+###### Formerly known as Reef, To appear at VLDB 2019
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
 We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
 
@@ -54,9 +54,12 @@ We explore how we can find latent subsets in training data that affect the behav
 
 #### <a name="pubs"></a>Publications
 ##### 2018
-[Reef: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_reef.pdf)  
+[Snuba: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_reef.pdf)  
 **Paroma Varma** and Christopher Ré.  
 To appear at *International Conference on Very Large Databases (VLDB), 2019*
+
+[Weakly supervised classification of rare aortic valve malformations using unlabeled cardiac MRI sequences](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/38921-weakly-supervised-classification-of-rare-aortic-valve-malformations-using-unlabeled-cardiac-mri-sequences)  
+Jason Fries, **Paroma Varma**, Vincent Chen, Ke Xiao, Heliodoro Tejeda, Saha Priyanka, Jared Dunnmon, Henry Chubb, Shiraz Maskatia, Madalina Fiterau, Scott Delp, Euan Ashley, Christopher Ré and James Priest.
 
 [Training Classifiers with Natural Language Explanations](https://arxiv.org/abs/1805.03818)  
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
