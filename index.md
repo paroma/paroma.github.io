@@ -15,7 +15,7 @@ I am a fourth year Ph.D. student advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This includes systems like [Snorkel](https://github.com/HazyResearch/snorkel) and [Snorkel MeTaL](https://github.com/HazyResearch/metal) that allow users to write labeling function rather than label data by hand. I'm interested in using _developer exhaust_, or byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems in this context. 
+My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This includes systems like [Snorkel](https://github.com/HazyResearch/snorkel) and [Snorkel MeTaL](https://github.com/HazyResearch/metal) that allow users to write labeling functions rather than label data by hand. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
 
 <!-- My CV is [here](cv.pdf). -->
 
