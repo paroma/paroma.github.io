@@ -30,7 +30,7 @@ My research interests revolve around _weak supervision_, or using high-level kno
 #### <a name="project"></a>Projects
 
 ##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
-###### Formerly known as Reef, To appear at VLDB 2019
+###### Formerly known as Reef, to appear at VLDB 2019
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
 We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
 
