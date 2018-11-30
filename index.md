@@ -11,20 +11,21 @@ title: Paroma Varma
 
 <img src="profile.jpg" align="middle"/>
 
-I am a fourth year Ph.D. student advised by [Prof. Chris
+I am a fourth year Ph.D. student advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train complex models (like [here](#snuba), [here](#coral), [here](#babble), and [here](#socratic)). This includes using _developer exhaust_, or byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#deem) problems. I'm currently exploring systematic ways of debugging machine learning models, especially [training data and labels](https://dawn.cs.stanford.edu/2018/06/21/debugging/).
+My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This includes systems like [Snorkel](https://github.com/HazyResearch/snorkel) and [Snorkel MeTaL](https://github.com/HazyResearch/metal) that allow users to write labeling function rather than label data by hand. I'm interested in using _developer exhaust_, or byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems in this context. 
 
-My CV is [here](cv.pdf).
+<!-- My CV is [here](cv.pdf). -->
 
 #### <a name="news"></a>Latest News
 
+| 11/29/18 | Looking forward to co-organize the [Learning from Limited Labeled Data Workshop](https://iclr.cc/Conferences/2019/Schedule?showEvent=633) at ICLR 2019!
+| 11/16/18 | 52 papers accepted to our [Relational Representation Learning Workshop](https://r2learning.github.io) at NeurIPS 2018!
+| 11/06/18 | Excited to help with the [Snorkel Biomedical Knowledge Base Construction Workshop](http://mobilize.stanford.edu/registration-open-for-text-based-machine-learning-workshop/)!
 | 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](tech_report_snuba.pdf) accepted to VLDB 2019!
 | 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
-| 08/06/18 | Excited to co-organize the [Relational Representation Learning Workshop](https://r2learning.github.io) at NIPS 2018!
-| 07/17/18 | [Braden Hancock](https://www.bradenhancock.com/) presents [Babble Labble](#babble) at ACL 2018!
 
 #### <a name="project"></a>Projects
 
@@ -34,7 +35,7 @@ We explore how we can make weak supervision techniques easier to adopt by automa
 We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
 
 ##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
-###### ACL 2018, NIPS 2017 DEMO 
+###### ACL 2018, NeurIPS 2017 DEMO 
 [Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[code](https://github.com/HazyResearch/babble)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
 
 ##### <a name="deem"></a>Efficient Model Search using Log Data
@@ -42,19 +43,19 @@ We introduce a system that takes as input a small, labeled dataset and a larger 
 We present preliminary methods that use the logs generated while training complex deep learning models to predict the performance of models with different architectures. We find that without training any new models, we can predict how well a model architecture will perform according to different metrics and within training time constraints. [[pdf](logsearch.pdf)]
 
 ##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
-###### NIPS 2017, NIPS ML4H 2017, MED-NIPS 2017
+###### NeurIPS 2017, NeurIPS ML4H 2017, MED-NeurIPS 2017
 We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
 [[pdf](https://arxiv.org/abs/1709.02477)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
 
 ##### <a name="socratic"></a>Socratic Learning: Finding Latent Subsets in Training Data
-###### HILDA @ SIGMOD 2017, NIPS FILM 2016
+###### HILDA @ SIGMOD 2017, NeurIPS FILM 2016
 We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
 [[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
 
 
 #### <a name="pubs"></a>Publications
 ##### 2018
-[Snuba: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_reef.pdf)  
+[Snuba: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_snuba.pdf)  
 **Paroma Varma** and Christopher Ré.  
 To appear at *International Conference on Very Large Databases (VLDB), 2019*
 
@@ -72,15 +73,15 @@ In *Workshop on Data Management for End-to-End Machine Learning (DEEM) at SIGMOD
 ##### 2017
 [Inferring Generative Model Structure with Static Analysis](https://arxiv.org/abs/1709.02477)  
 **Paroma Varma**, Bryan He, Payal Bajaj, Imon Banerjee, Nishith Khandwala, Daniel L. Rubin and Christopher Ré.  
-In *Neural Information Processing Systems (NIPS), 2017*
+In *Neural Information Processing Systems (NeurIPS), 2017*
 
 [Automated Training Set Generation for Aortic Valve Classification]()  
 Vincent Chen, **Paroma Varma**, Madalina Fiterau, James Priest  and Christopher Ré.  
-In *Machine Learning for Health (ML4H), Neural Information Processing Systems (NIPS), 2017*
+In *Machine Learning for Health (ML4H), Neural Information Processing Systems (NeurIPS), 2017*
 
 [Generating Training Labels for Cardiac Phase-Contrast MRI Images]()  
 Vincent Chen, **Paroma Varma**, Madalina Fiterau, James Priest  and Christopher Ré.  
-In *Medical Imaging meets NIPS (MED-NIPS), 2017*
+In *Medical Imaging meets NeurIPS (MED-NeurIPS), 2017*
 
 [Augmenting Generative Models to Incorporate Latent Subsets in Training Data](https://arxiv.org/abs/1610.08123)  
 **Paroma Varma**, Bryan He, Dan Iter, Peng Xu, Rose Yu, Christopher De Sa, Christopher Ré  
@@ -90,9 +91,9 @@ In *Medical Imaging meets NIPS (MED-NIPS), 2017*
 In *Workshop on Human-In-the-Loop Data Analytics (HILDA) at SIGMOD, 2017*
 
 ##### 2016
-[Socratic Learning](http://www.filmnips.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
+[Socratic Learning](http://www.filmNeurIPS.com/wp-content/uploads/2016/11/FILM-NIPS2016_paper_9.pdf)  
 **Paroma Varma**, Rose Yu, Dan Iter, Christopher De Sa, Christopher Ré  
-In *Future of Interactive Learning Machines Workshop (FILM), Neural Information Processing Systems (NIPS), 2016*
+In *Future of Interactive Learning Machines Workshop (FILM), Neural Information Processing Systems (NeurIPS), 2016*
 
 [Efficient 3D Deconvolution Microscopy with Proximal Algorithms](https://www.osapublishing.org/abstract.cfm?uri=ISA-2016-JT3A.44)  
 **Paroma Varma**, Gordon Wetzstein  
