@@ -21,8 +21,8 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 #### <a name="news"></a>Latest News
 
-| 11/29/18 | Looking forward to co-organize the [Learning from Limited Labeled Data Workshop](https://iclr.cc/Conferences/2019/Schedule?showEvent=633) at ICLR 2019!
-| 11/16/18 | 52 papers accepted to our [Relational Representation Learning Workshop](https://r2learning.github.io) at NeurIPS 2018!
+| 11/29/18 | Looking forward to co-organizing the [Learning from Limited Labeled Data Workshop](https://iclr.cc/Conferences/2019/Schedule?showEvent=633) at ICLR 2019!
+| 11/16/18 | Over 50 papers accepted to our [Relational Representation Learning Workshop](https://r2learning.github.io) at NeurIPS 2018!
 | 11/06/18 | Excited to help with the [Snorkel Biomedical Knowledge Base Construction Workshop](http://mobilize.stanford.edu/registration-open-for-text-based-machine-learning-workshop/)!
 | 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](tech_report_snuba.pdf) accepted to VLDB 2019!
 | 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
