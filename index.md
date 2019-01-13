@@ -24,15 +24,15 @@ My research interests revolve around _weak supervision_, or using high-level kno
 | 11/29/18 | Looking forward to co-organize the [Learning from Limited Labeled Data Workshop](https://iclr.cc/Conferences/2019/Schedule?showEvent=633) at ICLR 2019!
 | 11/16/18 | 52 papers accepted to our [Relational Representation Learning Workshop](https://r2learning.github.io) at NeurIPS 2018!
 | 11/06/18 | Excited to help with the [Snorkel Biomedical Knowledge Base Construction Workshop](http://mobilize.stanford.edu/registration-open-for-text-based-machine-learning-workshop/)!
-| 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](tech_report_snuba.pdf) accepted to VLDB 2019!
+| 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) accepted to VLDB 2019!
 | 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
 
 #### <a name="project"></a>Projects
 
 ##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
-###### Formerly known as Reef, to appear at VLDB 2019
+###### VLDB 2019
 We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
-We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](tech_report_reef.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
+We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
 
 ##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
 ###### ACL 2018, NeurIPS 2017 DEMO 
@@ -45,7 +45,7 @@ We present preliminary methods that use the logs generated while training comple
 ##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
 ###### NeurIPS 2017, NeurIPS ML4H 2017, MED-NeurIPS 2017
 We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
-[[pdf](https://arxiv.org/abs/1709.02477)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
+[[pdf](https://papers.nips.cc/paper/6628-inferring-generative-model-structure-with-static-analysis.pdf)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
 
 ##### <a name="socratic"></a>Socratic Learning: Finding Latent Subsets in Training Data
 ###### HILDA @ SIGMOD 2017, NeurIPS FILM 2016
@@ -55,7 +55,7 @@ We explore how we can find latent subsets in training data that affect the behav
 
 #### <a name="pubs"></a>Publications
 ##### 2018
-[Snuba: Automating Weak Supervision to Label Training Data](http://127.0.0.1:4000/tech_report_snuba.pdf)  
+[Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)  
 **Paroma Varma** and Christopher Ré.  
 To appear at *International Conference on Very Large Databases (VLDB), 2019*
 
@@ -71,7 +71,7 @@ Jian Zhang, Max Lam, Stephanie Wang, **Paroma Varma**, Luigi Nardi, Kunle Olukot
 In *Workshop on Data Management for End-to-End Machine Learning (DEEM) at SIGMOD, 2018*
 
 ##### 2017
-[Inferring Generative Model Structure with Static Analysis](https://arxiv.org/abs/1709.02477)  
+[Inferring Generative Model Structure with Static Analysis](https://papers.nips.cc/paper/6628-inferring-generative-model-structure-with-static-analysis.pdf)  
 **Paroma Varma**, Bryan He, Payal Bajaj, Imon Banerjee, Nishith Khandwala, Daniel L. Rubin and Christopher Ré.  
 In *Neural Information Processing Systems (NeurIPS), 2017*
 
