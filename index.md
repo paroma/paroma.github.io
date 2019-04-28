@@ -21,13 +21,19 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 #### <a name="news"></a>Latest News
 
-| 11/29/18 | Looking forward to co-organizing the [Learning from Limited Labeled Data Workshop](https://iclr.cc/Conferences/2019/Schedule?showEvent=633) at ICLR 2019!
-| 11/16/18 | Over 50 papers accepted to our [Relational Representation Learning Workshop](https://r2learning.github.io) at NeurIPS 2018!
-| 11/06/18 | Excited to help with the [Snorkel Biomedical Knowledge Base Construction Workshop](http://mobilize.stanford.edu/registration-open-for-text-based-machine-learning-workshop/)!
+| 04/21/19 | Our paper on [Learning Dependency Structures for Weak Supervision Models](https://arxiv.org/pdf/1903.05844.pdf) accepted to ICML 2019!
+
+| 04/10/19 | Our workshop paper on [Utilizing Weak Supervision to Infer Complex Objects and Situations in Autonomous Driving Data]() accepted to IEEE Intelligent Vehicles Symposium 2019!
+
+| 03/22/19| Lab members use Snorkel MeTaL to [achieve state-of-the-art](https://dawn.cs.stanford.edu/2019/03/22/glue/) performance on the [GLUE Benchmark](https://gluebenchmark.com/leaderboard)
+
 | 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) accepted to VLDB 2019!
-| 09/27/18 | Conversations with industry members on [debugging machine learning](https://dawn.cs.stanford.edu/2018/09/27/feedback/)!
 
 #### <a name="project"></a>Projects
+
+##### <a name="deps"></a>Learning Dependency Structures for Weak Supervision Models
+###### ICML 2019
+[Fres Sala](https://stanford.edu/~fredsala/) and I use a robust PCA-based algorithm to learn dependency structures among weak supervision sources without using any labeled data. We take advantage of the sparsity pattern in th structure and improve the sample complexity of existing efforts. We provide an information-theoretic lower bound on the minimum sample complexity of the weak supervision setting and empirically show that it improves over existing methods in terms of the quality of training labels generated. [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal)]
 
 ##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
 ###### VLDB 2019
