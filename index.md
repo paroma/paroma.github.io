@@ -33,38 +33,50 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 ##### <a name="deps"></a>Learning Dependency Structures for Weak Supervision Models
 ###### ICML 2019
-[Fred Sala](https://stanford.edu/~fredsala/) and I use a robust PCA-based algorithm to learn dependency structures among weak supervision sources without using any labeled data. We take advantage of the sparsity pattern in the structure and improve the sample complexity of existing efforts. We provide an information-theoretic lower bound on the minimum sample complexity of the weak supervision setting and empirically show that it improves over existing methods in terms of the quality of training labels generated. [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal)]
+[Fred Sala](https://stanford.edu/~fredsala/) and I use a robust PCA-based algorithm to learn dependency structures for weak supervision sources without using any labeled data. We take advantage of the sparsity pattern in the structure and improve the sample complexity of existing efforts.  [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal/blob/cb_deps/tutorials/Learned_Deps.ipynb)]
+<!-- We provide an information-theoretic lower bound on the minimum sample complexity of the weak supervision setting and empirically show that it improves over existing methods in terms of the quality of training labels generated. -->
+
+##### <a name="scene"></a>Scene Graph Prediction with Limited Labels
+###### In Submission
+[Vincent Chen](https://vincentsc.com) and I use weak supervision to automatically label rare visual relationships in the benchmark [Visual Genome]() dataset. We find that spatial and categorical information are enough to generate training labels that can train state-of-the-art scene graph models. [[pdf](https://arxiv.org/pdf/1904.11622.pdf)] 
 
 ##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
 ###### VLDB 2019
-We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
-We introduce a system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. We find that this method can outperform weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
+We introduce a weak supervision system that takes as input a small, labeled dataset and a larger unlabeled dataset and assigns training labels to the latter automatically. This method outperforms weak supervision with user-defined heuristics and crowdsourcing in many cases. [[pdf](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)] [[code](https://www.github.com/HazyResearch/reef/)]
+<!-- We explore how we can make weak supervision techniques easier to adopt by automating the process of generating noisy labeling heuristics. 
+It generates heuristics that each labels only the subset of the data it is accurate for, and iteratively repeats this process until the heuristics together label a large portion of the unlabeled data. -->
 
 ##### <a name="babble"></a>Babble Labble: Learning from Natural Language Explanations
 ###### ACL 2018, NeurIPS 2017 DEMO 
-[Braden Hancock](https://www.bradenhancock.com/) and I explore how we can use natural language explanations for why crowd workers provide the labels they do to label training data more efficiently. We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[code](https://github.com/HazyResearch/babble)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+[Braden Hancock](https://www.bradenhancock.com/) and I use natural language explanations to label training data efficiently. We find that collecting explanations allows us to build high quality training sets much faster than collecting labels alone. [[pdf](https://arxiv.org/abs/1805.03818)] [[code](https://github.com/HazyResearch/babble)] [[blogpost](https://hazyresearch.github.io/snorkel/blog/babble_labble.html)] [[demo video](https://www.youtube.com/watch?v=YBeAX-deMDg)]
+<!-- We automatically parse these explanations into executable functions and apply them to large amounts of unlabeled data. -->
 
 ##### <a name="deem"></a>Efficient Model Search using Log Data
 ###### DEEM @ SIGMOD 2018
-We present preliminary methods that use the logs generated while training complex deep learning models to predict the performance of models with different architectures. We find that without training any new models, we can predict how well a model architecture will perform according to different metrics and within training time constraints. [[pdf](logsearch.pdf)]
+We explore how to use developer exhaust in the form of logs generated while training deep learning models to predict the performance of models with different architectures. [[pdf](logsearch.pdf)]
 
 ##### <a name="coral"></a> Coral: Enriching Statistical Models with Static Analysis
 ###### NeurIPS 2017, NeurIPS ML4H 2017, MED-NeurIPS 2017
-We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and incorporate this information into a generative model that can optimally assign probabilistic labels to training data. We apply this method to video querying and medical image classification tasks, outperforming fully supervised models in some cases. 
+We introduce a weak supervision framework to efficiently label image and video training data given a small set of user-defined heuristics. We identify correlations among heuristics using static analysis and assign probabilistic labels to training data accordingly.
 [[pdf](https://papers.nips.cc/paper/6628-inferring-generative-model-structure-with-static-analysis.pdf)] [[blogpost](http://dawn.cs.stanford.edu/2017/09/14/coral/)] [[video](https://youtu.be/Do1On5AzHE4)]
 
 ##### <a name="socratic"></a>Socratic Learning: Finding Latent Subsets in Training Data
 ###### HILDA @ SIGMOD 2017, NeurIPS FILM 2016
-We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We automatically identify these subsets using disagreements between the discriminative and generative models and correct misspecified generative models accordingly. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
+We explore how we can find latent subsets in training data that affect the behavior of weak supervision sources. We improve upon existing relation extraction and sentiment analysis tasks and make these latent subsets interpretable for users. 
 [[pdf](https://arxiv.org/abs/1610.08123)] [[workshop](flipper.pdf)] [[blogpost](http://hazyresearch.github.io/snorkel/blog/socratic_learning.html)] [[video](https://www.youtube.com/watch?v=0gRNochbK9c)] 
 
 
 #### <a name="pubs"></a>Publications
-##### 2018
+##### 2019
+[Learning Dependency Structures for Weak Supervision Models](https://arxiv.org/pdf/1903.05844.pdf)  
+**Paroma Varma**<sup>+</sup>, Fred Sala<sup>+</sup>, Ann He, Alex Ratner, Christopher Ré
+To appear at *International Conference on Machine Learning (ICML), 2019*
+
 [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)  
 **Paroma Varma** and Christopher Ré.  
 To appear at *International Conference on Very Large Databases (VLDB), 2019*
 
+##### 2018
 [Weakly supervised classification of rare aortic valve malformations using unlabeled cardiac MRI sequences](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/38921-weakly-supervised-classification-of-rare-aortic-valve-malformations-using-unlabeled-cardiac-mri-sequences)  
 Jason Fries, **Paroma Varma**, Vincent Chen, Ke Xiao, Heliodoro Tejeda, Saha Priyanka, Jared Dunnmon, Henry Chubb, Shiraz Maskatia, Madalina Fiterau, Scott Delp, Euan Ashley, Christopher Ré and James Priest.
 
