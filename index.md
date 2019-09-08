@@ -15,30 +15,34 @@ I am a fourth year Ph.D. student advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This includes systems like [Snorkel](https://github.com/HazyResearch/snorkel) and [Snorkel MeTaL](https://github.com/HazyResearch/metal) that allow users to write labeling functions rather than label data by hand. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
+My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This work is part of and builds on [Snorkel](https://snorkel.org), the system that accepts weak supervision signals in the form of user-defined labeling functions. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
 
 <!-- My CV is [here](cv.pdf). -->
 
 #### <a name="news"></a>Latest News
 
-| 04/21/19 | Our paper on [Learning Dependency Structures for Weak Supervision Models](https://arxiv.org/pdf/1903.05844.pdf) accepted to ICML 2019!
+| 09/03/19 | Our paper on [Multi-Resolution Weak Supervision for Sequential Data]() presented to NeurIPS 2019!
 
-| 04/10/19 | Our workshop paper on weak supervision accepted to IEEE Intelligent Vehicles Symposium 2019!
+| 08/27/19 | Presented [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) at VLDB 2019!
 
-| 03/22/19| Lab members use Snorkel MeTaL to [achieve state-of-the-art](https://dawn.cs.stanford.edu/2019/03/22/glue/) performance on the [GLUE Benchmark](https://gluebenchmark.com/leaderboard)
+| 07/21/19 | Our paper on [Scene Graph Prediction with Limited Labels](https://arxiv.org/pdf/1904.11622.pdf) accepted to ICCV 2019!
 
-| 10/15/18 | [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) accepted to VLDB 2019!
+| 06/13/19 | Our paper on [Weak Supervision for Cardiac MRI Classification](https://www.nature.com/articles/s41467-019-11012-3) accepted to Nature Communications!
 
 #### <a name="project"></a>Projects
+
+##### <a name="multi"></a>Multi-Resolution Weak Supervision for Sequential Data
+###### To appear at NeurIPS 2019
+We present a framework to apply weak supervision to multi-resolution data like videos and time-series data that can handle sequential correlations among supervision sources. We experimentally validate our system over population-level video datasets and gait sensor data. PDF coming soon!  
+<!-- [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal/blob/cb_deps/tutorials/Learned_Deps.ipynb)] -->
+
+##### <a name="scene"></a>Scene Graph Prediction with Limited Labels
+###### ICCV 2019
+[Vincent Chen](https://vincentsc.com) and I use weak supervision to automatically label rare visual relationships in the benchmark [Visual Genome]() dataset. We find that spatial and categorical information are enough to generate training labels that can train state-of-the-art scene graph models. [[pdf](https://arxiv.org/pdf/1904.11622.pdf)] 
 
 ##### <a name="deps"></a>Learning Dependency Structures for Weak Supervision Models
 ###### ICML 2019
 [Fred Sala](https://stanford.edu/~fredsala/) and I use a robust PCA-based algorithm to learn dependency structures for weak supervision sources without using any labeled data. We take advantage of the sparsity pattern in the structure and improve the sample complexity of existing efforts.  [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal/blob/cb_deps/tutorials/Learned_Deps.ipynb)]
-<!-- We provide an information-theoretic lower bound on the minimum sample complexity of the weak supervision setting and empirically show that it improves over existing methods in terms of the quality of training labels generated. -->
-
-##### <a name="scene"></a>Scene Graph Prediction with Limited Labels
-###### In Submission
-[Vincent Chen](https://vincentsc.com) and I use weak supervision to automatically label rare visual relationships in the benchmark [Visual Genome]() dataset. We find that spatial and categorical information are enough to generate training labels that can train state-of-the-art scene graph models. [[pdf](https://arxiv.org/pdf/1904.11622.pdf)] 
 
 ##### <a name="snuba"></a>Snuba: Automating Weak Supervision to Label Training Data
 ###### VLDB 2019
@@ -68,18 +72,26 @@ We explore how we can find latent subsets in training data that affect the behav
 
 #### <a name="pubs"></a>Publications
 ##### 2019
+[Multi-Resolution Weak Supervision for Sequential Data]()    
+*To appear in Neural Information Processing Systems (NeurIPS), 2019*
+
+[Scene Graph Prediction with Limited Labels](https://arxiv.org/pdf/1904.11622.pdf)  
+Vincent Chen, **Paroma Varma**, Ranjay Krishna, Michael Bernstein, Christopher Ré, Fei-Fei Li  
+*International Conference on Computer Vision (ICCV), 2019*
+
 [Learning Dependency Structures for Weak Supervision Models](https://arxiv.org/pdf/1903.05844.pdf)  
-**Paroma Varma**<sup>+</sup>, Fred Sala<sup>+</sup>, Ann He, Alex Ratner, Christopher Ré
-To appear at *International Conference on Machine Learning (ICML), 2019*
+**Paroma Varma**<sup>+</sup>, Fred Sala<sup>+</sup>, Ann He, Alex Ratner, Christopher Ré  
+*International Conference on Machine Learning (ICML), 2019*
+
+[Weakly supervised classification of rare aortic valve malformations using unlabeled cardiac MRI sequences](https://www.nature.com/articles/s41467-019-11012-3)  
+Jason Fries, **Paroma Varma**, Vincent Chen, Ke Xiao, Heliodoro Tejeda, Saha Priyanka, Jared Dunnmon, Henry Chubb, Shiraz Maskatia, Madalina Fiterau, Scott Delp, Euan Ashley, Christopher Ré and James Priest.  
+*Nature Communications, 2019*
 
 [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf)  
 **Paroma Varma** and Christopher Ré.  
-To appear at *International Conference on Very Large Databases (VLDB), 2019*
+*International Conference on Very Large Databases (VLDB), 2019*
 
 ##### 2018
-[Weakly supervised classification of rare aortic valve malformations using unlabeled cardiac MRI sequences](https://nature-research-under-consideration.nature.com/users/37265-nature-communications/posts/38921-weakly-supervised-classification-of-rare-aortic-valve-malformations-using-unlabeled-cardiac-mri-sequences)  
-Jason Fries, **Paroma Varma**, Vincent Chen, Ke Xiao, Heliodoro Tejeda, Saha Priyanka, Jared Dunnmon, Henry Chubb, Shiraz Maskatia, Madalina Fiterau, Scott Delp, Euan Ashley, Christopher Ré and James Priest.
-
 [Training Classifiers with Natural Language Explanations](https://arxiv.org/abs/1805.03818)  
 Braden Hancock, **Paroma Varma**, Stephanie Wang, Percy Liang and Christopher Ré.  
 In *Association for Computational Linguistics (ACL), 2018*
