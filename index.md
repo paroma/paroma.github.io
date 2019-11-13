@@ -5,15 +5,13 @@ title: Paroma Varma
 
 ## <a name="home"></a> Paroma Varma
 
-### Ph. D. Student - Electrical Engineering - Stanford University  
-
 ### paroma [at] stanford [dot] edu - @paroma_varma
 
 <img src="profile.jpg" align="middle"/>
 
-I am a fourth year Ph.D. student advised by [Prof. Christopher
+I recently graduated from the Stanford Ph.D. program, where I was advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
-the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I am supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
+the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I was supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
 My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This work is part of and builds on [Snorkel](https://snorkel.org), the system that accepts weak supervision signals in the form of user-defined labeling functions. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
 
@@ -21,7 +19,11 @@ My research interests revolve around _weak supervision_, or using high-level kno
 
 #### <a name="news"></a>Latest News
 
-| 09/03/19 | Our paper on [Multi-Resolution Weak Supervision for Sequential Data]() presented to NeurIPS 2019!
+| 11/12/19 | Code release for  [ICCV Scene Graph Prediction Paper](https://github.com/vincentschen/limited-label-scene-graphs)!
+
+| 10/21/19 | Preprint of our NeurIPS 2019 paper [Multi-Resolution Weak Supervision](https://arxiv.org/pdf/1910.09505.pdf) now available!
+
+| 09/03/19 | Our paper on [Multi-Resolution Weak Supervision for Sequential Data]() accepted to NeurIPS 2019!
 
 | 08/27/19 | Presented [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) at VLDB 2019!
 
@@ -34,11 +36,11 @@ My research interests revolve around _weak supervision_, or using high-level kno
 ##### <a name="multi"></a>Multi-Resolution Weak Supervision for Sequential Data
 ###### To appear at NeurIPS 2019
 We present a framework to apply weak supervision to multi-resolution data like videos and time-series data that can handle sequential correlations among supervision sources. We experimentally validate our system over population-level video datasets and gait sensor data. PDF coming soon!  
-<!-- [[pdf](https://arxiv.org/pdf/1903.05844.pdf)] [[code](https://github.com/HazyResearch/metal/blob/cb_deps/tutorials/Learned_Deps.ipynb)] -->
+[[pdf](https://arxiv.org/pdf/1910.09505.pdf)]
 
 ##### <a name="scene"></a>Scene Graph Prediction with Limited Labels
 ###### ICCV 2019
-[Vincent Chen](https://vincentsc.com) and I use weak supervision to automatically label rare visual relationships in the benchmark [Visual Genome]() dataset. We find that spatial and categorical information are enough to generate training labels that can train state-of-the-art scene graph models. [[pdf](https://arxiv.org/pdf/1904.11622.pdf)] 
+[Vincent Chen](https://vincentsc.com) and I use weak supervision to automatically label rare visual relationships in the benchmark [Visual Genome]() dataset. We find that spatial and categorical information are enough to generate training labels that can train state-of-the-art scene graph models. [[pdf](https://arxiv.org/pdf/1904.11622.pdf)] [[code](https://github.com/vincentschen/limited-label-scene-graphs)]
 
 ##### <a name="deps"></a>Learning Dependency Structures for Weak Supervision Models
 ###### ICML 2019
@@ -72,7 +74,7 @@ We explore how we can find latent subsets in training data that affect the behav
 
 #### <a name="pubs"></a>Publications
 ##### 2019
-[Multi-Resolution Weak Supervision for Sequential Data]()    
+[Multi-Resolution Weak Supervision for Sequential Data](https://arxiv.org/pdf/1910.09505.pdf)    
 *To appear in Neural Information Processing Systems (NeurIPS), 2019*
 
 [Scene Graph Prediction with Limited Labels](https://arxiv.org/pdf/1904.11622.pdf)  
