@@ -5,37 +5,32 @@ title: Paroma Varma
 
 ## <a name="home"></a> Paroma Varma
 
-### paroma [at] stanford [dot] edu - @paroma_varma
+### varma [dot] paroma [at] gmail [dot] com - @paroma_varma
 
 <img src="profile.jpg" align="middle"/>
 
-I recently graduated from the Stanford Ph.D. program, where I was advised by [Prof. Christopher
+I'm excited to be spending my time as a co-founder with the amazing team at Snorkel AI! We're building [Snorkel Flow](snorkel.ai), the data-first platform for building, managing, and monitoring end-to-end AI applications. 
+
+I graduated from the Stanford Ph.D. program, where I was advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
 the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I was supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
 
-My research interests revolve around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. This work is part of and builds on [Snorkel](https://snorkel.org), the system that accepts weak supervision signals in the form of user-defined labeling functions. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
+My research interests revolved around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
 
 <!-- My CV is [here](cv.pdf). -->
 
 #### <a name="news"></a>Latest News
+| 08/30/20 | Great time talking about Snorkel at [WiMLDS](http://wimlds.org)!
 
-| 11/12/19 | Code release for  [ICCV Scene Graph Prediction Paper](https://github.com/vincentschen/limited-label-scene-graphs)!
+| 07/14/20 | [Snorkel AI](snorkel.ai) is out of stealth!
 
-| 10/21/19 | Preprint of our NeurIPS 2019 paper [Multi-Resolution Weak Supervision](https://arxiv.org/pdf/1910.09505.pdf) now available!
-
-| 09/03/19 | Our paper on [Multi-Resolution Weak Supervision for Sequential Data]() accepted to NeurIPS 2019!
-
-| 08/27/19 | Presented [Snuba: Automating Weak Supervision to Label Training Data](http://www.vldb.org/pvldb/vol12/p223-varma.pdf) at VLDB 2019!
-
-| 07/21/19 | Our paper on [Scene Graph Prediction with Limited Labels](https://arxiv.org/pdf/1904.11622.pdf) accepted to ICCV 2019!
-
-| 06/13/19 | Our paper on [Weak Supervision for Cardiac MRI Classification](https://www.nature.com/articles/s41467-019-11012-3) accepted to Nature Communications!
+| 05/05/20 | Talked about Snorkel at [WT2](http://www.womentransformingtechnology.com)!
 
 #### <a name="project"></a>Projects
 
 ##### <a name="multi"></a>Multi-Resolution Weak Supervision for Sequential Data
-###### To appear at NeurIPS 2019
-We present a framework to apply weak supervision to multi-resolution data like videos and time-series data that can handle sequential correlations among supervision sources. We experimentally validate our system over population-level video datasets and gait sensor data. PDF coming soon!  
+###### NeurIPS 2019
+We present a framework to apply weak supervision to multi-resolution data like videos and time-series data that can handle sequential correlations among supervision sources. We experimentally validate our system over population-level video datasets and gait sensor data.
 [[pdf](https://arxiv.org/pdf/1910.09505.pdf)]
 
 ##### <a name="scene"></a>Scene Graph Prediction with Limited Labels
@@ -73,9 +68,11 @@ We explore how we can find latent subsets in training data that affect the behav
 
 
 #### <a name="pubs"></a>Publications
+##### 2020
+
 ##### 2019
 [Multi-Resolution Weak Supervision for Sequential Data](https://arxiv.org/pdf/1910.09505.pdf)    
-*To appear in Neural Information Processing Systems (NeurIPS), 2019*
+*Neural Information Processing Systems (NeurIPS), 2019*
 
 [Scene Graph Prediction with Limited Labels](https://arxiv.org/pdf/1904.11622.pdf)  
 Vincent Chen, **Paroma Varma**, Ranjay Krishna, Michael Bernstein, Christopher Ré, Fei-Fei Li  
