@@ -13,20 +13,19 @@ I'm excited to be spending my time as a co-founder with the amazing team at Snor
 
 I graduated from the Stanford Ph.D. program, where I was advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
-the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I was supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org).
-
-My research interests revolved around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
+the [DAWN](http://dawn.cs.stanford.edu), [SAIL](http://ai.stanford.edu), and [StatML](http://statsml.stanford.edu) groups. I was supported by the [Stanford Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sgf/details) and the [National Science Foundation Graduate Research Fellowship](https://www.nsfgrfp.org). My research interests revolved around _weak supervision_, or using high-level knowledge in the form of noisy labeling sources to efficiently label massive datasets required to train machine learning models. In this context, I'm also interested in using _developer exhaust_, byproducts of the data analytics pipeline, to simplify complex [statistical](#coral) and [search-based](#snuba) problems. 
 
 <!-- My CV is [here](cv.pdf). -->
 
 #### <a name="news"></a>Latest News
-| 08/30/20 | Great time talking about Snorkel at [WiMLDS](http://wimlds.org)!
+
+| 08/30/20 | Had a great time talking about Snorkel at [WiMLDS](http://wimlds.org)!
 
 | 07/14/20 | [Snorkel AI](snorkel.ai) is out of stealth!
 
-| 05/05/20 | Talked about Snorkel at [WT2](http://www.womentransformingtechnology.com)!
+| 05/05/20 | Enjoyed talking about Snorkel at [WT2](http://www.womentransformingtechnology.com)!
 
-#### <a name="project"></a>Projects
+#### <a name="project"></a>Selected Projects
 
 ##### <a name="multi"></a>Multi-Resolution Weak Supervision for Sequential Data
 ###### NeurIPS 2019
@@ -68,8 +67,6 @@ We explore how we can find latent subsets in training data that affect the behav
 
 
 #### <a name="pubs"></a>Publications
-##### 2020
-
 ##### 2019
 [Multi-Resolution Weak Supervision for Sequential Data](https://arxiv.org/pdf/1910.09505.pdf)    
 *Neural Information Processing Systems (NeurIPS), 2019*
