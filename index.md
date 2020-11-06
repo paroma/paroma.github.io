@@ -9,7 +9,7 @@ title: Paroma Varma
 
 <img src="profile.jpg" align="middle"/>
 
-I'm excited to be spending my time as a co-founder with the amazing team at Snorkel AI! We're building [Snorkel Flow](snorkel.ai), the data-first platform for building, managing, and monitoring end-to-end AI applications. 
+I'm excited to be spending my time as a co-founder with the amazing team at Snorkel AI! We're building [Snorkel Flow](https://www.snorkel.ai/), the data-first platform for building, managing, and monitoring end-to-end AI applications. 
 
 I graduated from the Stanford Ph.D. program, where I was advised by [Prof. Christopher
 Ré](http://cs.stanford.edu/people/chrismre/) and affiliated with
